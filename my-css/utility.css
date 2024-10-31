@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Nunito", sans-serif;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 1rem;
+  background: #00332d;
+  width: 95%;
+  padding:0 0.5rem;
+  height: 3rem;
+  border-radius: 0.5rem ;
+  color: white;
+}
+.playbarinfo{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.playbarinfo div{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.invert{
+  filter: invert(1);
+}
+.progressCont{
+  width: 98%;
+  margin: 0 0 10px 0;
+  display: flex;
+  align-items: center;
+}
+.progressBar{
+  height: 3px;
+  width: 100%;
+  background: white;
+}
+.circle{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: 1%;
+  transition:left 0.5s;
+}
+.songTime p {
+  position: absolute;
+  right: 10px;
+}
+.no-wrap {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.chutiya{
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF3D;
+  opacity: 0.7;
+  border-radius: 2rem ;
+  padding: 0 1.5rem;
+}
+.chutiya p{
+  margin: auto 0;
+}
+
+.navbar{
+  background: #00332d;
+  color: white;
+}
+body{
+  background: #004d40;
+}
+.nav-link{
+  color: white;
+}
+.my-cont{
+  height: 80vh;
+  background: blue;
+  overflow-y: scroll;
+}
+.my-contfire-box::-webkit-scrollbar {
+  display: none;
+}
