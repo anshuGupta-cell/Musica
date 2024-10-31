@@ -85,7 +85,7 @@ const Home = () => {
   function updateTime() {
     audio.addEventListener('timeupdate', () => {
       setCurrentTime(secondsToMinutesSeconds(audio.currentTime))
-      setProgress((audio.currentTime / audio.duration * 96) + 1)
+      setProgress((audio.currentTime / audio.duration * 95) + 1)
     });
   }
   /* Seconds to minutes 00:00 format */
@@ -102,9 +102,9 @@ const Home = () => {
   }
 
   const handleProgress = (e) => {
-    let percent = ((e.nativeEvent.offsetX / e.target.getBoundingClientRect().width) * 96) + 1;
+    let percent = ((e.nativeEvent.offsetX / e.target.getBoundingClientRect().width) * 95) + 1;
     setProgress(percent)
-    audio.currentTime = (audio.duration) * percent / 96;
+    audio.currentTime = (audio.duration) * percent / 95;
   }
 
 ''
