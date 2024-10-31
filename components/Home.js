@@ -114,7 +114,8 @@ const Home = () => {
       <div className=" my-cont text-white p-3 rounded"
       style={{
       backgroundImage: 'url(background/2.jpeg)',
-        objectFit:'cover',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
       }}
       >
 
