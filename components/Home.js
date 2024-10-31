@@ -4,9 +4,9 @@ import PlayBar from './PlayBar.js';
 
 const Home = () => {
   const songs = [
-    { name: 'Ninja Hattori - title track', src: '/song/0.mp3', id: 0 },
-    { name: 'NEFFEX - Grateful', src: '/song/1.mp3', id: 1 },
-    { name: 'Cartoon, Jéja - On & On (feat. Daniel Levi) | Electronic Pop', src: '/song/2.mp3', id: 2 },
+    { name: 'Ninja Hattori - title track', src: 'song/0.mp3', id: 0 },
+    { name: 'NEFFEX - Grateful', src: 'song/1.mp3', id: 1 },
+    { name: 'Cartoon, Jéja - On & On (feat. Daniel Levi) | Electronic Pop', src: 'song/2.mp3', id: 2 },
   
   ];
 
@@ -113,7 +113,7 @@ const Home = () => {
     <div className="container my-3">
       <div className=" my-cont text-white p-3 rounded"
       style={{
-      backgroundImage: 'url(/background/2.jpeg)',
+      backgroundImage: 'url(background/2.jpeg)',
         objectFit:'cover',
       }}
       >
