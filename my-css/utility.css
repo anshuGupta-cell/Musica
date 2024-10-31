@@ -88,7 +88,6 @@ body{
 }
 .my-cont{
   height: 80vh;
-  background: blue;
   overflow-y: scroll;
 }
 .my-contfire-box::-webkit-scrollbar {
