@@ -7,6 +7,7 @@ const Home = () => {
     { name: 'Ninja Hattori - title track', src: 'song/0.mp3', id: 0 },
     { name: 'NEFFEX - Grateful', src: 'song/1.mp3', id: 1 },
     { name: 'Cartoon, Jéja - On & On (feat. Daniel Levi) | Electronic Pop', src: 'song/2.mp3', id: 2 },
+    { name: 'One piece ED 1-Memories english', src: 'song/3.mp3', id: 3}
   
   ];
 
